@@ -1,0 +1,7 @@
+if(FRAMEWORK STREQUAL "COSA")
+    include ("${CMAKE_CURRENT_LIST_DIR}/cmake-cosa/CosaToolchain.cmake")
+elseif(FRAMEWORK STREQUAL "ARDUINO")
+    include ("${CMAKE_CURRENT_LIST_DIR}/cmake-arduino/ArduinoToolchain.cmake")
+else()
+    message(FATAL_ERROR "${FRAMEWORK} not supported by ATMEL AVR platform")
+endif()

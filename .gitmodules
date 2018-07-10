@@ -1,0 +1,6 @@
+[submodule "frameworks/cosa"]
+	path = frameworks/cosa
+	url = https://github.com/mikaelpatel/cosa
+[submodule "frameworks/arduino/hardware/arduino/avr"]
+	path = frameworks/arduino/hardware/arduino/avr
+	url = https://github.com/arduino/ArduinoCore-avr.git
