@@ -1,0 +1,415 @@
+{
+    "boards": [
+        {
+            "wio-name": "decimila",
+            "name": "Arduino Diecimila/Duemilanove (ATmega168)",
+            "frameworks": {
+                "cosa": "decimila",
+                "arduino": "decimila"
+            },
+            "mcu": "atmega2560",
+            "cpu": "atmega2560"
+        },
+        {
+            "wio-name": "duemilanove",
+            "name": "Arduino Diecimila/Duemilanove (ATmega328P)",
+            "frameworks": {
+                "cosa": "duemilanove",
+                "arduino": "decimila"
+            },
+            "mcu": "atmega328p"
+        },
+        {
+            "wio-name": "leonardo",
+            "name": "Arduino Leonardo (ATmega32U4/Caterina)",
+            "frameworks": {
+                "cosa": "leonardo",
+                "arduino": "leonardo"
+            },
+            "mcu": "atmega32u4"
+        },
+        {
+            "wio-name": "leonardoeth",
+            "name": "Arduino Leonardo ETH",
+            "frameworks": {
+                "arduino": "leonardoeth"
+            },
+            "mcu": "atmega32u4"
+        },
+        {
+            "wio-name": "nano328",
+            "name": "Arduino Nano (ATmega328/BOOT_168)",
+            "frameworks": {
+                "cosa": "nano",
+                "arduino": "nano"
+            },
+            "mcu": "atmega328p"
+        },
+        {
+            "wio-name": "nano168",
+            "name": "Arduino Nano (ATmega168)",
+            "frameworks": {
+                "arduino": "nano"
+            },
+            "mcu": "atmega168"
+        },
+        {
+            "wio-name": "yun",
+            "name": "Arduino Yún",
+            "frameworks": {
+                "arduino": "yun"
+            },
+            "mcu": "atmega32u4"
+        },
+        {
+            "wio-name": "uno",
+            "name": "Arduino Uno (ATmega328/Optiboot)",
+            "frameworks": {
+                "cosa": "uno",
+                "arduino": "uno"
+            },
+            "mcu": "atmega328p"
+        },
+        {
+            "wio-name": "mega1280",
+            "name": "Arduino Mega (ATmega1280/BOOT_168)",
+            "frameworks": {
+                "cosa": "mega1280",
+                "arduino": "mega"
+            },
+            "mcu": "atmega1280"
+        },
+        {
+            "wio-name": "mega2560",
+            "name": "Arduino Mega (ATmega2560/STK500v2)",
+            "frameworks": {
+                "cosa": "mega2560",
+                "arduino": "mega"
+            },
+            "mcu": "atmega2560"
+        },
+        {
+            "wio-name": "mega-adk",
+            "name": "Arduino Mega ADK",
+            "frameworks": {
+                "arduino": "megaADK"
+            },
+            "mcu": "atmega2560"
+        },
+        {
+            "wio-name": "micro",
+            "name": "Arduino Micro (ATmega32U4/Caterina)",
+            "frameworks": {
+                "cosa": "micro",
+                "arduino": "micro"
+            },
+            "mcu": "atmega32u4"
+        },
+        {
+            "wio-name": "esplora",
+            "name": "Arduino Esplora",
+            "frameworks": {
+                "arduino": "esplora"
+            },
+            "mcu": "atmega32u4"
+        },
+        {
+            "wio-name": "pro-mini",
+            "name": "Arduino Pro Mini (ATmega328/BOOT_168)",
+            "frameworks": {
+                "cosa": "pro-mini"
+            },
+            "mcu": "atmega328p"
+        },
+        {
+            "wio-name": "pro-mini-8",
+            "name": "Arduino Pro Mini (ATmega328/BOOT_168, 3.3V, 8 MHz)",
+            "frameworks": {
+                "cosa": "pro-mini-8"
+            },
+            "mcu": "atmega328p"
+        },
+        {
+            "wio-name": "pro-micro",
+            "name": "Arduino Pro Micro (ATmega32U4/Caterina)",
+            "frameworks": {
+                "cosa": "pro-micro"
+            },
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
+        },
+        {
+            "wio-name": "pro-micro-8",
+            "name": "Arduino Pro Micro (ATmega32U4/Caterina, 3.3V, 8 MHz)",
+            "frameworks": {
+                "cosa": "pro-micro-8"
+            },
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
+        },
+        {
+            "wio-name": "mini328p",
+            "name": "Arduino Mini (ATmega238p)",
+            "frameworks": {
+                "arduino": "mini"
+            },
+            "mcu": "atmega328p"
+        },
+        {
+            "wio-name": "mini168",
+            "name": "Arduino Mini (ATmega168)",
+            "frameworks": {
+                "arduino": "mini"
+            },
+            "mcu": "atmega168"
+        },
+        {
+            "wio-name": "ethernet",
+            "name": "Arduino Ethernet",
+            "frameworks": {
+                "arduino": "ethernet"
+            },
+            "mcu": "atmega328p"
+        },
+        {
+            "wio-name": "bt328p",
+            "name": "Arduino BT (ATmega328p)",
+            "frameworks": {
+                "arduino": "bt"
+            },
+            "mcu": "atmega328p"
+        },
+        {
+            "wio-name": "bt168",
+            "name": "Arduino BT (ATmega168)",
+            "frameworks": {
+                "arduino": "bt"
+            },
+            "mcu": "atmega168"
+        },
+        {
+            "wio-name": "lilypad328p",
+            "name": "LilyPad Arduino (ATmega328/BOOT_168, 8 MHz)",
+            "frameworks": {
+                "cosa": "lilypad",
+                "arduino": "lilypad"
+            },
+            "mcu": "atmega328p"
+        },
+        {
+            "wio-name": "lilypad168",
+            "name": "LilyPad Arduino (ATmega168)",
+            "frameworks": {
+                "arduino": "lilypad"
+            },
+            "mcu": "atmega168"
+        },
+        {
+            "wio-name": "lilypad-usb",
+            "name": "LilyPad Arduino USB (ATmega32U4/Caterina, 8 MHz)",
+            "frameworks": {
+                "cosa": "lilypad-usb",
+                "arduino": "LilyPadUSB"
+            },
+            "mcu": "atmega32u4"
+        },
+        {
+            "wio-name": "lilypad-usb",
+            "name": "LilyPad Arduino USB (ATmega32U4/Caterina, 8 MHz)",
+            "frameworks": {
+                "cosa": "lilypad-usb",
+                "arduino": "LilyPadUSB"
+            },
+            "mcu": "atmega32u4"
+        },
+        {
+            "wio-name": "pro16MHzatmega328",
+            "name": "Arduino Pro or Pro Mini",
+            "frameworks": {
+                "arduino": "pro"
+            },
+            "mcu": "atmega328p",
+            "cpu": "16MHzatmega328"
+        },
+        {
+            "wio-name": "pro8MHzatmega328",
+            "name": "Arduino Pro or Pro Mini",
+            "frameworks": {
+                "arduino": "pro"
+            },
+            "mcu": "atmega328p",
+            "cpu": "8MHzatmega328"
+        },
+        {
+            "wio-name": "pro16MHzatmega168",
+            "name": "Arduino Pro or Pro Mini",
+            "frameworks": {
+                "arduino": "pro"
+            },
+            "mcu": "atmega168",
+            "cpu": "16MHzatmega168"
+        },
+        {
+            "wio-name": "pro8MHzatmega168",
+            "name": "Arduino Pro or Pro Mini",
+            "frameworks": {
+                "arduino": "pro"
+            },
+            "mcu": "atmega168",
+            "cpu": "8MHzatmega168"
+        },
+        {
+            "wio-name": "atmegang168",
+            "name": "Arduino NG or older (ATmega168)",
+            "frameworks": {
+                "arduino": "atmegang"
+            },
+            "mcu": "atmega168",
+            "cpu": "atmega168"
+        },
+        {
+            "wio-name": "atmegang8",
+            "name": "Arduino NG or older (ATmega8)",
+            "frameworks": {
+                "arduino": "atmegang"
+            },
+            "mcu": "atmega8",
+            "cpu": "atmega8"
+        },
+        {
+            "wio-name": "robotControl",
+            "name": "Arduino Robot Control",
+            "frameworks": {
+                "arduino": "robotControl"
+            },
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
+        },
+        {
+            "wio-name": "robotMotor",
+            "name": "Arduino Robot Motor",
+            "frameworks": {
+                "arduino": "robotMotor"
+            },
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
+        },
+        {
+            "wio-name": "gemma",
+            "name": "Arduino Gemma",
+            "frameworks": {
+                "arduino": "gemma"
+            },
+            "mcu": "attiny85",
+            "cpu": "attiny85"
+        },
+        {
+            "wio-name": "circuitplay32u4cat",
+            "name": "Adafruit Circuit Playground",
+            "frameworks": {
+                "arduino": "circuitplay32u4cat"
+            },
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
+        },
+        {
+            "wio-name": "yunmini",
+            "name": "Arduino Yún Mini",
+            "frameworks": {
+                "arduino": "yunmini"
+            },
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
+        },
+        {
+            "wio-name": "yunmini",
+            "name": "Arduino Yún Mini",
+            "frameworks": {
+                "arduino": "yunmini"
+            },
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
+        },
+        {
+            "wio-name": "chiwawa",
+            "name": "Arduino Industrial 101",
+            "frameworks": {
+                "arduino": "chiwawa"
+            },
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
+        },
+        {
+            "wio-name": "one",
+            "name": "Linino One",
+            "frameworks": {
+                "arduino": "one"
+            },
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
+        },
+        {
+            "wio-name": "unowifi",
+            "name": "Arduino Uno WiFi",
+            "frameworks": {
+                "arduino": "unowifi"
+            },
+            "mcu": "atmega328p",
+            "cpu": "atmega328p"
+        },
+        {
+            "wio-name": "attiny84-8",
+            "name": "Cosa Breadboard (ATtiny84, 8 MHz internal clock)",
+            "frameworks": {
+                "cosa": "attiny84-8"
+            },
+            "mcu": "attiny84",
+            "cpu": "attiny84"
+        },
+        {
+            "wio-name": "attiny85-8",
+            "name": "Cosa Breadboard (ATtiny85, 8 MHz internal clock)",
+            "frameworks": {
+                "cosa": "attiny85-8"
+            },
+            "mcu": "attiny85",
+            "cpu": "attiny85"
+        },
+        {
+            "wio-name": "attiny861-8",
+            "name": "Cosa Breadboard (ATtiny861, 8 MHz internal clock)",
+            "frameworks": {
+                "cosa": "attiny861-8"
+            },
+            "mcu": "attiny861",
+            "cpu": "attiny861"
+        },
+        {
+            "wio-name": "atmega328",
+            "name": "Cosa Breadboard (ATmega328, 8 MHz internal clock)",
+            "frameworks": {
+                "cosa": "atmega328"
+            },
+            "mcu": "atmega328p",
+            "cpu": "atmega328p"
+        },
+        {
+            "wio-name": "mighty",
+            "name": "Cosa Breadboard (ATmega1284P/BOOT_1284P)",
+            "frameworks": {
+                "cosa": "mighty"
+            },
+            "mcu": "atmega1284p",
+            "cpu": "atmega1284p"
+        },
+        {
+            "wio-name": "mighty-opt",
+            "name": "Cosa Breadboard (ATmega1284P/Optiboot)",
+            "frameworks": {
+                "cosa": "mighty-opt"
+            },
+            "mcu": "atmega1284p",
+            "cpu": "atmega1284p"
+        }
+    ]
+}
