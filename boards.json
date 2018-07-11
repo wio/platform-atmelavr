@@ -26,7 +26,8 @@
                 "cosa": "leonardo",
                 "arduino": "leonardo"
             },
-            "mcu": "atmega32u4"
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
         },
         {
             "wio-name": "leonardoeth",
@@ -34,7 +35,8 @@
             "frameworks": {
                 "arduino": "leonardoeth"
             },
-            "mcu": "atmega32u4"
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
         },
         {
             "wio-name": "nano328",
@@ -43,7 +45,8 @@
                 "cosa": "nano",
                 "arduino": "nano"
             },
-            "mcu": "atmega328p"
+            "mcu": "atmega328p",
+            "cpu": "atmega328p"
         },
         {
             "wio-name": "nano168",
@@ -51,7 +54,8 @@
             "frameworks": {
                 "arduino": "nano"
             },
-            "mcu": "atmega168"
+            "mcu": "atmega168",
+            "cpu": "atmega168"
         },
         {
             "wio-name": "yun",
@@ -59,7 +63,8 @@
             "frameworks": {
                 "arduino": "yun"
             },
-            "mcu": "atmega32u4"
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
         },
         {
             "wio-name": "uno",
@@ -68,7 +73,8 @@
                 "cosa": "uno",
                 "arduino": "uno"
             },
-            "mcu": "atmega328p"
+            "mcu": "atmega328p",
+            "cpu": "atmega328p"
         },
         {
             "wio-name": "mega1280",
@@ -77,7 +83,8 @@
                 "cosa": "mega1280",
                 "arduino": "mega"
             },
-            "mcu": "atmega1280"
+            "mcu": "atmega1280",
+            "cpu": "atmega328p"
         },
         {
             "wio-name": "mega2560",
@@ -86,7 +93,8 @@
                 "cosa": "mega2560",
                 "arduino": "mega"
             },
-            "mcu": "atmega2560"
+            "mcu": "atmega2560",
+            "cpu": "atmega2560"
         },
         {
             "wio-name": "mega-adk",
@@ -94,7 +102,8 @@
             "frameworks": {
                 "arduino": "megaADK"
             },
-            "mcu": "atmega2560"
+            "mcu": "atmega2560",
+            "cpu": "atmega2560"
         },
         {
             "wio-name": "micro",
@@ -103,7 +112,8 @@
                 "cosa": "micro",
                 "arduino": "micro"
             },
-            "mcu": "atmega32u4"
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
         },
         {
             "wio-name": "esplora",
@@ -111,7 +121,8 @@
             "frameworks": {
                 "arduino": "esplora"
             },
-            "mcu": "atmega32u4"
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
         },
         {
             "wio-name": "pro-mini",
@@ -119,7 +130,8 @@
             "frameworks": {
                 "cosa": "pro-mini"
             },
-            "mcu": "atmega328p"
+            "mcu": "atmega328p",
+            "cpu": "atmega328p"
         },
         {
             "wio-name": "pro-mini-8",
@@ -127,7 +139,8 @@
             "frameworks": {
                 "cosa": "pro-mini-8"
             },
-            "mcu": "atmega328p"
+            "mcu": "atmega328p",
+            "cpu": "atmega328p"
         },
         {
             "wio-name": "pro-micro",
@@ -153,7 +166,8 @@
             "frameworks": {
                 "arduino": "mini"
             },
-            "mcu": "atmega328p"
+            "mcu": "atmega328p",
+            "cpu": "atmega328p"
         },
         {
             "wio-name": "mini168",
@@ -161,7 +175,8 @@
             "frameworks": {
                 "arduino": "mini"
             },
-            "mcu": "atmega168"
+            "mcu": "atmega168",
+            "cpu": "atmega168"
         },
         {
             "wio-name": "ethernet",
@@ -169,7 +184,8 @@
             "frameworks": {
                 "arduino": "ethernet"
             },
-            "mcu": "atmega328p"
+            "mcu": "atmega328p",
+            "cpu": "atmega328p"
         },
         {
             "wio-name": "bt328p",
@@ -177,7 +193,8 @@
             "frameworks": {
                 "arduino": "bt"
             },
-            "mcu": "atmega328p"
+            "mcu": "atmega328p",
+            "cpu": "atmega328p"
         },
         {
             "wio-name": "bt168",
@@ -185,7 +202,8 @@
             "frameworks": {
                 "arduino": "bt"
             },
-            "mcu": "atmega168"
+            "mcu": "atmega168",
+            "cpu": "atmega168"
         },
         {
             "wio-name": "lilypad328p",
@@ -194,7 +212,8 @@
                 "cosa": "lilypad",
                 "arduino": "lilypad"
             },
-            "mcu": "atmega328p"
+            "mcu": "atmega328p",
+            "cpu": "atmega328p"
         },
         {
             "wio-name": "lilypad168",
@@ -202,7 +221,8 @@
             "frameworks": {
                 "arduino": "lilypad"
             },
-            "mcu": "atmega168"
+            "mcu": "atmega168",
+            "cpu": "atmega168"
         },
         {
             "wio-name": "lilypad-usb",
@@ -211,7 +231,8 @@
                 "cosa": "lilypad-usb",
                 "arduino": "LilyPadUSB"
             },
-            "mcu": "atmega32u4"
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
         },
         {
             "wio-name": "lilypad-usb",
@@ -220,7 +241,8 @@
                 "cosa": "lilypad-usb",
                 "arduino": "LilyPadUSB"
             },
-            "mcu": "atmega32u4"
+            "mcu": "atmega32u4",
+            "cpu": "atmega32u4"
         },
         {
             "wio-name": "pro16MHzatmega328",
@@ -385,10 +407,10 @@
             "cpu": "attiny861"
         },
         {
-            "wio-name": "atmega328",
+            "wio-name": "atmega328-8",
             "name": "Cosa Breadboard (ATmega328, 8 MHz internal clock)",
             "frameworks": {
-                "cosa": "atmega328"
+                "cosa": "atmega328-8"
             },
             "mcu": "atmega328p",
             "cpu": "atmega328p"
